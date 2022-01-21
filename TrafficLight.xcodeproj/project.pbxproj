@@ -7,18 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F82643F4279AD6B60058D9A5 /* NextButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82643F3279AD6B60058D9A5 /* NextButtonView.swift */; };
 		F85B99022798AFF20070C10F /* TrafficLightApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85B99012798AFF20070C10F /* TrafficLightApp.swift */; };
 		F85B99042798AFF20070C10F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85B99032798AFF20070C10F /* ContentView.swift */; };
 		F85B99062798AFF30070C10F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F85B99052798AFF30070C10F /* Assets.xcassets */; };
 		F85B99092798AFF30070C10F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F85B99082798AFF30070C10F /* Preview Assets.xcassets */; };
+		F89AB2B2279ABEFC006453C6 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89AB2B1279ABEFC006453C6 /* CircleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F82643F3279AD6B60058D9A5 /* NextButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextButtonView.swift; sourceTree = "<group>"; };
 		F85B98FE2798AFF20070C10F /* TrafficLight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrafficLight.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F85B99012798AFF20070C10F /* TrafficLightApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficLightApp.swift; sourceTree = "<group>"; };
 		F85B99032798AFF20070C10F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F85B99052798AFF30070C10F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F85B99082798AFF30070C10F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F89AB2B1279ABEFC006453C6 /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				F85B99012798AFF20070C10F /* TrafficLightApp.swift */,
 				F85B99032798AFF20070C10F /* ContentView.swift */,
+				F82643F3279AD6B60058D9A5 /* NextButtonView.swift */,
+				F89AB2B1279ABEFC006453C6 /* CircleView.swift */,
 				F85B99052798AFF30070C10F /* Assets.xcassets */,
 				F85B99072798AFF30070C10F /* Preview Content */,
 			);
@@ -137,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F89AB2B2279ABEFC006453C6 /* CircleView.swift in Sources */,
+				F82643F4279AD6B60058D9A5 /* NextButtonView.swift in Sources */,
 				F85B99042798AFF20070C10F /* ContentView.swift in Sources */,
 				F85B99022798AFF20070C10F /* TrafficLightApp.swift in Sources */,
 			);
@@ -275,6 +283,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -305,6 +314,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
